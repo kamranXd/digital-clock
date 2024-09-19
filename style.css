@@ -38,3 +38,31 @@ body{
     top: -13%;
     margin-left:5px;
 }
+
+@media screen and (max-width:274px) {
+    .clock{
+        max-width: 240px;
+        padding: 5px;
+        font-size: 1.6rem;
+        
+    }  
+    .clock h1{
+        font-size: 1.8rem;
+    }
+    .clock span{
+        font-size: 1rem;
+        position: relative;
+        top: 1px;
+    }
+}
+
+
+@media screen and (min-width:275px) and (max-width:400px){
+    .clock{
+        max-width: 260px;
+        padding: 5px;
+    }
+    .clock h1{
+        font-size: 2.4rem;
+    }
+}
