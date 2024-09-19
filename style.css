@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("wallhaven-83e1m1_1920x1080.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.clock{
+    width: 100%;
+    max-width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(135, 134, 134, 0.537);
+    height: 13vh;
+    color: rgb(255, 247, 247);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.clock h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.clock span{
+    position: relative;
+    top: -13%;
+    margin-left:5px;
+}
